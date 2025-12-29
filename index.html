@@ -79,13 +79,12 @@
 
         .header-content {
             display: grid;
-            grid-template-columns: auto 1fr auto;
+            grid-template-columns: auto 1fr;
             align-items: center;
-            gap: 20px;
         }
 
         .logo-container {
-            transform: translateX(-30px);
+            justify-self: start;
         }
 
         .logo {
@@ -725,9 +724,9 @@
             }
 
             .nav-links {
+                display: flex;
                 justify-content: center;
-                max-width: 800px;
-                margin: 0 auto;
+                gap: 30px;
             }
 
             .logo {
@@ -1114,6 +1113,7 @@
     </footer>
 </body>
 </html>
+
 
 
 
