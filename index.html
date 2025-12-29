@@ -78,13 +78,13 @@
         }
 
         .header-content {
-            display: flex;
+            display: grid;
+            grid-template-columns: auto 1fr;
             align-items: center;
         }
 
         .logo-container {
-            margin-right: auto;
-            padding-left: 20px;
+            justify-self: start;
         }
 
         .logo {
@@ -101,7 +101,9 @@
         }
 
         .nav-links {
-            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
         }
 
         .nav-btn {
@@ -1111,6 +1113,7 @@
     </footer>
 </body>
 </html>
+
 
 
 
