@@ -74,10 +74,9 @@
         }
 
         .header-content {
-            display: flex;
+            display: grid;
+            grid-template-columns: auto 1fr auto;
             align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
             gap: 20px;
         }
 
@@ -102,8 +101,8 @@
 
         .nav-links {
             display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
         }
 
         .nav-btn {
@@ -857,8 +856,6 @@
         </div>
     </header>
 
-    </header>
-
     <!-- Featured Video Box - Top Left -->
     <div style="position: absolute; top: 180px; left: 50%; transform: translateX(-50%); z-index: 50; width: 500px;">
         <div style="background: var(--bg-card); border-radius: 15px; border: 1px solid rgba(0, 217, 255, 0.2); overflow: hidden; box-shadow: 0 0 20px rgba(0, 217, 255, 0.1); animation: glow 1.5s infinite alternate;">
@@ -1115,6 +1112,7 @@
     </footer>
 </body>
 </html>
+
 
 
 
